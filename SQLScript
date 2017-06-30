@@ -1,0 +1,10 @@
+create database Meresa_raya;
+use Meresa_raya;
+
+
+INSERT INTO user (username,password,enabled) VALUES ('raya',"password1",true);
+INSERT INTO `role` (`role`) VALUES ("ROLE_ADMIN"),("ROLE_ADMIN"),("ROLE_ADMIN");
+
+INSERT INTO `user_roles` (`user_id`,`role_id`) VALUES (1,1);
+
+insert into person(first_name,last_name,password,email) values ('raya','meresa','password','raya@gmail.com');
